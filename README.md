@@ -1,5 +1,7 @@
 # 🧾 Portfolio Project Checklist
 
+[Click here for Live Demo](https://tindyc.github.io/FS_Assessment_Criteria_Checklist/)
+
 ## Overview  
 The **Portfolio Project Checklist** is a quick and practical web tool I created for my students to use **before submitting their assessments**.  
 
