@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Project 3: Python Essentials</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <img src="assets/ci_logo.png" alt="Code Institute Logo" />
+    <nav>
+      <a href="pp1.html">PP1</a>
+      <a href="pp2.html">PP2</a>
+      <a href="pp3.html">PP3</a>
+      <a href="pp4.html">PP4</a>
+      <a href="pp5-pa.html">PP5 (PA)</a>
+      <a href="pp5-ecommerce.html" class="active">PP5 (E-commerce)</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Portfolio Project 3: Python Essentials</h1>
+
+    <p><strong>Project purpose:</strong><br>
+      In this project, you'll build a command-line application that allows your users to manage a common dataset about a particular domain.</p>
+
+    <p><strong>Main Technologies</strong><br>
+      Required: Python</p>
+
+    <!-- Project Ideas -->
+    <details open>
+      <summary>Project Ideas</summary>
+      <p>You can either choose to build the website based on Project Idea 0, or take inspiration from the other example ideas below.</p>
+
+      <p><strong>Project Idea 0</strong><br>
+        Bring your idea(s) to life based on providing value to users to address a specific factual or imagined need. Use the relevant project assessment criteria as a guide to the minimum required functionality.</p>
+
+      <p><strong>Project Example Idea 1</strong><br>
+        Analyse Survey Data</p>
+      <p><em>External user’s goal:</em><br>
+        The application user wants to glean insights from survey results.</p>
+      <p><em>Site owner's goal:</em><br>
+        The application should provide actionable insights from an inputted dataset.</p>
+      <p><em>Potential features to include:</em></p>
+      <ul>
+        <li>Import survey results from the terminal, structured data file or similar.</li>
+        <li>Parse and analyse the data</li>
+        <li>Export the results to an appropriate file</li>
+      </ul>
+
+      <p><strong>Project Example Idea 2</strong><br>
+        A Battleships game</p>
+      <p><em>External user’s goal:</em><br>
+        The application user wants to play a logic game</p>
+      <p><em>Site owner's goal:</em><br>
+        The Battleships game is played on grids on which each player's fleet of battleships are marked. The locations of the fleets are concealed from the other player. Players call shots at the other player's ships, and the objective of the game is to destroy the opposing player's fleet.
+        The application provides a working battleships game for a single user to play against the computer .e.g.</p>
+      <p><em>Potential features to include:</em></p>
+      <ul>
+        <li>The ability for the user to set the grid size</li>
+        <li>Warn the user if their guess is off-grid</li>
+      </ul>
+    </details>
+
+    <!-- Learning Outcomes -->
+    <details>
+      <summary>Assessment Criteria — Learning Outcomes</summary>
+      <table class="criteria-table">
+        <thead>
+          <tr>
+            <th>Learning Outcome</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>LO1</td><td>Implement a given algorithm as a computer program</td></tr>
+          <tr><td>LO2</td><td>Adapt and combine algorithms to solve a given problem</td></tr>
+          <tr><td>LO3</td><td>Adequately use standard programming constructs: repetition, selection, functions, composition, modules, aggregated data (arrays, lists, etc.)</td></tr>
+          <tr><td>LO4</td><td>Explain what a given program does</td></tr>
+          <tr><td>LO5</td><td>Identify and repair coding errors in a program</td></tr>
+          <tr><td>LO6</td><td>Use library software for building a graphical user interface, or command-line interface, or web application, or mathematical software</td></tr>
+          <tr><td>LO7</td><td>Implement a data model, application features and business logic to manage, query and manipulate data to meet given needs in a particular real-world domain.</td></tr>
+          <tr><td>LO8</td><td>Demonstrate and document the development process through a version control system such as GitHub</td></tr>
+          <tr><td>LO9</td><td>Deploy a command-line application to a cloud-based platform</td></tr>
+        </tbody>
+      </table>
+    </details>
+
+    <!-- Pass Criteria -->
+    <details>
+      <summary>Assessment Criteria — Pass</summary>
+      <p><strong>Important:</strong> All Pass criteria must be achieved for a pass to be awarded.</p>
+
+      <h3>LO1: Implement a given algorithm as a computer program</h3>
+      <table class="criteria-table">
+        <thead><tr><th>Criterion</th><th>Description</th><th>Done</th></tr></thead>
+        <tbody>
+          <tr><td>1.1</td><td>Write Python code that passes through a linter (eg PEP8) with no significant issues.</td><td><input type="checkbox" id="p3-lo1-1"></td></tr>
+          <tr><td>1.2</td><td>Ensure all intended functionality works as per the critical project objectives</td><td><input type="checkbox" id="p3-lo1-2"></td></tr>
+          <tr><td>1.3</td><td>Write code that meets minimum standards for readability (comments, indentation, consistent and meaningful naming conventions).</td><td><input type="checkbox" id="p3-lo1-3"></td></tr>
+        </tbody>
+      </table>
+
+      <h3>LO2: Adapt and combine algorithms to solve a given problem</h3>
+      <table class="criteria-table">
+        <thead><tr><th>Criterion</th><th>Description</th><th>Done</th></tr></thead>
+        <tbody>
+          <tr><td>2.1</td><td>Write code that handles empty or invalid input data.</td><td><input type="checkbox" id="p3-lo2-1"></td></tr>
+          <tr><td>2.2</td><td>Clearly separate and identify code written for the application and code from external sources (e.g. libraries or tutorials)</td><td><input type="checkbox" id="p3-lo2-2"></td></tr>
+          <tr><td>2.3</td><td>Ensure a consistent flow of logic and data with well defined granular functions</td><td><input type="checkbox" id="p3-lo2-3"></td></tr>
+        </tbody>
+      </table>
+
+      <h3>LO3: Use standard programming constructs</h3>
+      <table class="criteria-table">
+        <thead><tr><th>Criterion</th><th>Description</th><th>Done</th></tr></thead>
+        <tbody>
+          <tr><td>3.1</td><td>Implement standard programming constructs such as flow control, iteration, selection, functions, object-oriented programming and data structures - as appropriate - to achieve the project goals.</td><td><input type="checkbox" id="p3-lo3-1"></td></tr>
+          <tr><td>3.2</td><td>Implement exception/error handling to optimise the user experience</td><td><input type="checkbox" id="p3-lo3-2"></td></tr>
+        </tbody>
+      </table>
+
+      <h3>LO4: Explain what a given program does</h3>
+      <table class="criteria-table">
+        <thead><tr><th>Criterion</th><th>Description</th><th>Done</th></tr></thead>
+        <tbody>
+          <tr><td>4.1</td><td>Use consistent and effective markdown formatting that is well-structured, easy to follow, and has few grammatical errors when writing a README file.</td><td><input type="checkbox" id="p3-lo4-1"></td></tr>
+          <tr><td>4.2</td><td>Write a README.md file in English for the Python application that explains its purpose and the value that it provides to its users.</td><td><input type="checkbox" id="p3-lo4-2"></td></tr>
+        </tbody>
+      </table>
+
+      <h3>LO5: Identify and repair coding errors</h3>
+      <table class="criteria-table">
+        <thead><tr><th>Criterion</th><th>Description</th><th>Done</th></tr></thead>
+        <tbody>
+          <tr><td>5.1</td><td>Implement basic manual testing procedures for code validation</td><td><input type="checkbox" id="p3-lo5-1"></td></tr>
+        </tbody>
+      </table>
+
+      <h3>LO6: Use library software</h3>
+      <table class="criteria-table">
+        <thead><tr><th>Criterion</th><th>Description</th><th>Done</th></tr></thead>
+        <tbody>
+          <tr><td>6.1</td><td>Implement the use of external Python libraries where appropriate to provide the functionality that the project requires.</td><td><input type="checkbox" id="p3-lo6-1"></td></tr>
+        </tbody>
+      </table>
+
+      <h3>LO7: Data model, features & business logic</h3>
+      <table class="criteria-table">
+        <thead><tr><th>Criterion</th><th>Description</th><th>Done</th></tr></thead>
+        <tbody>
+          <tr><td>7.1</td><td>Implement a working data model that supports the intended project functionality</td><td><input type="checkbox" id="p3-lo7-1"></td></tr>
+          <tr><td>7.2</td><td>Write code that queries and manipulates data to meet the identified vital project needs.</td><td><input type="checkbox" id="p3-lo7-2"></td></tr>
+        </tbody>
+      </table>
+
+      <h3>LO8: Version control</h3>
+      <table class="criteria-table">
+        <thead><tr><th>Criterion</th><th>Description</th><th>Done</th></tr></thead>
+        <tbody>
+          <tr><td>8.1</td><td>Use Git & GitHub for version control of the web application up to deployment.</td><td><input type="checkbox" id="p3-lo8-1"></td></tr>
+        </tbody>
+      </table>
+
+      <h3>LO9: Deploy a command-line application</h3>
+      <table class="criteria-table">
+        <thead><tr><th>Criterion</th><th>Description</th><th>Done</th></tr></thead>
+        <tbody>
+          <tr><td>9.1</td><td>Deploy a final version of the Python Essentials application code to a cloud-based platform.</td><td><input type="checkbox" id="p3-lo9-1"></td></tr>
+          <tr><td>9.2</td><td>Ensure that the deployed application is free of commented out code.</td><td><input type="checkbox" id="p3-lo9-2"></td></tr>
+        </tbody>
+      </table>
+    </details>
+
+    <!-- Merit Criteria -->
+    <details>
+      <summary>Assessment Criteria — Merit</summary>
+
+      <p>To evidence performance at the MERIT level, a learner will, in general, demonstrate characteristics of performance at the MERIT level, as suggested below. However, the learner must achieve ALL listed merit criteria.</p>
+
+      <p>The learner has a clear rationale for the development of this project and has produced a fully functioning, documented application for a real-life audience. Data validation and user feedback are all evident in the code and the working application. There are no logic errors in the code, and the application functions as expected.</p>
+
+      <p>The finished project has a clear, well-defined purpose addressing the needs of a particular target audience (or multiple related audiences) and a specific data domain. Its purpose would be immediately evident to a new user without having to look at supporting documentation. The user is kept informed of progress and actions through feedback and, where large data sets are being loaded, progress indicators.</p>
+
+      <p>Code is well-organised and easy to follow, and the application has been fully tested, following a manual testing procedure, with no apparent errors left in the code.</p>
+
+      <p>The development process is evident through commit messages. The project’s documentation provides a clear rationale for the development of this project.</p>
+
+      <p>The application is robust and deals with external errors gracefully (user input).</p>
+
+      <table class="criteria-table">
+        <thead><tr><th>Criterion</th><th>Description</th><th>Done</th></tr></thead>
+        <tbody>
+          <tr><td>M1.1</td><td>Translate the intended logic into efficient code</td><td><input type="checkbox" id="p3-m-1"></td></tr>
+          <tr><td>M2.1</td><td>Ensure a consistent flow of logic and data with well defined granular functions</td><td><input type="checkbox" id="p3-m-2"></td></tr>
+          <tr><td>M3.1</td><td>Demonstrate a clear understanding of programming fundamental constructs and their relationships</td><td><input type="checkbox" id="p3-m-3"></td></tr>
+          <tr><td>M3.2</td><td>Implement OOP if appropriate to the project needs.</td><td><input type="checkbox" id="p3-m-4"></td></tr>
+          <tr><td>M4.1</td><td>Document the work undertaken to plan this project’s logic through flow charts or diagrams</td><td><input type="checkbox" id="p3-m-5"></td></tr>
+          <tr><td>M5.1</td><td>Document validation error-based fixes implemented and identify and explain any unsolved validation errors.</td><td><input type="checkbox" id="p3-m-6"></td></tr>
+          <tr><td>M5.2</td><td>Document the implementation of manual testing for code validation (using PEP Validators).</td><td><input type="checkbox" id="p3-m-7"></td></tr>
+          <tr><td>M6.1</td><td>Separate and identify code written for the application and code from external sources (e.g. libraries or tutorials)</td><td><input type="checkbox" id="p3-m-8"></td></tr>
+          <tr><td>M7.1</td><td>Efficiently implement the intended functionality as per the key project goals</td><td><input type="checkbox" id="p3-m-9"></td></tr>
+          <tr><td>M8.1</td><td>Document the rationale as to why a particular library/libraries are necessary for the implementation of the project.</td><td><input type="checkbox" id="p3-m-10"></td></tr>
+          <tr><td>M8.2</td><td>Commit often for each feature/fix, ensuring that commits are small, well-defined and have clear, descriptive messages.</td><td><input type="checkbox" id="p3-m-11"></td></tr>
+          <tr><td>M8.3</td><td>Demonstrate, through screenshots, what the project outcomes are and how they have been met.</td><td><input type="checkbox" id="p3-m-12"></td></tr>
+          <tr><td>M8.4</td><td>Present a clear rationale for the development of the project in the README, demonstrating that it has a clear, well-defined purpose addressing the critical goals of the application for a particular target audience (or multiple related audiences).</td><td><input type="checkbox" id="p3-m-13"></td></tr>
+          <tr><td>M9.1</td><td>Document the deployment procedure in a section in the README file.</td><td><input type="checkbox" id="p3-m-14"></td></tr>
+        </tbody>
+      </table>
+
+      <p><strong>Important:</strong> All Merit criteria must be achieved for merit to be awarded.</p>
+    </details>
+
+    <!-- Distinction Criteria -->
+    <details>
+      <summary>Assessment Criteria — Distinction</summary>
+
+      <p>At this level, a learner will have achieved all pass and merit criteria, as described above, and will demonstrate characteristics of high-level performance as described below:</p>
+
+      <h3>Characteristics of performance at DISTINCTION level:</h3>
+
+      <p>The learner has documented a clear, justified rationale for a real-world application</p>
+
+      <p>The development of the project has resulted in a fully-functioning Python application with a command-line interface</p>
+
+      <p>There are no logic errors in the code. Where there is a clear breach of accepted design/UX principles or accepted good practice in code organisation, these are fully justified, appropriate and acceptable to the target user. It matches the design and demonstrates the characteristics of craftsmanship in the code. The resulting application is original and not a copy of any walkthrough projects encountered in the unit</p>
+
+      <h3>Amplification (craftsmanship)</h3>
+
+      <h4>Design</h4>
+      <p>The design of the command line application demonstrates the main principles of imperative programming.</p>
+
+      <h4>User Control</h4>
+      <ul>
+        <li>All interaction with the application would be likely to produce a positive emotional response within the user. This is down to the flow of information and all interaction feedback. <input type="checkbox" id="p3-d-uc-1"></li>
+        <li>Users are never asked for information that the application already has. <input type="checkbox" id="p3-d-uc-2"></li>
+        <li>Errors resulting from user or data actions are reported to the user. <input type="checkbox" id="p3-d-uc-3"></li>
+      </ul>
+
+      <h4>Consistency</h4>
+      <ul>
+        <li>Consistency across all data operations. <input type="checkbox" id="p3-d-cons-1"></li>
+      </ul>
+
+      <h4>Confirmation</h4>
+      <ul>
+        <li>User and data actions are confirmed where appropriate, feedback is given at all times. <input type="checkbox" id="p3-d-conf-1"></li>
+      </ul>
+
+      <p>Any design decisions that contravene accepted user interaction principles are identified and described (comments in code or a section in the README) <input type="checkbox" id="p3-d-design-deviation-1"></p>
+
+      <h4>Development and Implementation</h4>
+      <p>Code demonstrates the characteristics of ‘clean code’:</p>
+      <ul>
+        <li>Consistent and appropriate naming conventions within code and in file naming (files, classes, functions, variables are descriptive and consistent). <input type="checkbox" id="p3-d-clean-1"></li>
+      </ul>
+
+      <h4>Readability</h4>
+      <ul>
+        <li>Code is indented consistently; no unnecessary repeated blank lines. <input type="checkbox" id="p3-d-read-1"></li>
+        <li>All code is split into well-defined and commented sections. <input type="checkbox" id="p3-d-read-2"></li>
+      </ul>
+
+      <h4>Defensive design</h4>
+      <ul>
+        <li>All input data is validated (presence, format, range checks). <input type="checkbox" id="p3-d-def-1"></li>
+        <li>Internal errors handled gracefully; users notified where appropriate. <input type="checkbox" id="p3-d-def-2"></li>
+      </ul>
+
+      <h4>Comments</h4>
+      <ul>
+        <li>Custom code files include clear and relevant comments. <input type="checkbox" id="p3-d-comm-1"></li>
+      </ul>
+
+      <h4>Compliant code</h4>
+      <ul>
+        <li>Python code conforms to PEP8. <input type="checkbox" id="p3-d-pep8-1"></li>
+      </ul>
+
+      <h4>Robust code</h4>
+      <ul>
+        <li>No logic errors when running code. <input type="checkbox" id="p3-d-rob-1"></li>
+        <li>User-caused errors are handled. <input type="checkbox" id="p3-d-rob-2"></li>
+        <li>Where used, failed API calls handled gracefully with clear user notification. <input type="checkbox" id="p3-d-rob-3"></li>
+        <li>Inputs validated when necessary. <input type="checkbox" id="p3-d-rob-4"></li>
+      </ul>
+
+      <p>The entire design is implemented, providing an excellent solution to the users' demands and expectations and security consideration. <input type="checkbox" id="p3-d-overall-1"></p>
+
+      <h4>Real-world application</h4>
+      <ul>
+        <li>The final application aligns with the critical project ideas presented at the start. <input type="checkbox" id="p3-d-real-1"></li>
+        <li>Security features and practice are evidenced. <input type="checkbox" id="p3-d-real-2"></li>
+      </ul>
+
+      <p>Any passwords and security-sensitive information are stored in environment variables or in .gitignore’d files and never committed. <input type="checkbox" id="p3-d-secrets-1"></p>
+
+      <h4>Data is well structured</h4>
+      <ul>
+        <li>Data fully modelled and matches intended project structure. <input type="checkbox" id="p3-d-data-1"></li>
+        <li>Data is well-structured; configuration/dependencies up to date. <input type="checkbox" id="p3-d-data-2"></li>
+      </ul>
+
+      <p>All noticeable errors have been corrected or documented: user actions do not cause terminal errors. <input type="checkbox" id="p3-d-errors-1"></p>
+
+      <h4>Version control software is used effectively</h4>
+      <ul>
+        <li>All code managed in git with descriptive commit messages. <input type="checkbox" id="p3-d-git-1"></li>
+        <li>Separate, well-defined commit for each feature/fix. <input type="checkbox" id="p3-d-git-2"></li>
+        <li>No very large commits. <input type="checkbox" id="p3-d-git-3"></li>
+      </ul>
+
+      <h4>The entire application development process is documented</h4>
+      <ul>
+        <li>Purpose of the application clearly described in the README. <input type="checkbox" id="p3-d-doc-1"></li>
+        <li>Clear separation between custom code and external sources with attribution. <input type="checkbox" id="p3-d-doc-2"></li>
+        <li>Deployment procedure fully documented in the README. <input type="checkbox" id="p3-d-doc-3"></li>
+        <li>Clear, explanatory commit messages describe the development process. <input type="checkbox" id="p3-d-doc-4"></li>
+        <li>README is well-structured and easy to follow. <input type="checkbox" id="p3-d-doc-5"></li>
+        <li>README uses consistent, effective markdown. <input type="checkbox" id="p3-d-doc-6"></li>
+        <li>UI copy has few spelling/grammar errors (where applicable). <input type="checkbox" id="p3-d-doc-7"></li>
+      </ul>
+    </details>
+
+  </main>
+
+  <footer>© Code Institute Assessment Criteria Checklist</footer>
+  <script src="scripts/checklist.js"></script>
+</body>
+</html>

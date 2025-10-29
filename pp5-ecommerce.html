@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Project 5: E-commerce Applications</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <img src="assets/ci_logo.png" alt="Code Institute Logo" />
+    <nav>
+      <a href="pp1.html">PP1</a>
+      <a href="pp2.html">PP2</a>
+      <a href="pp3.html">PP3</a>
+      <a href="pp4.html">PP4</a>
+      <a href="pp5-pa.html">PP5 (PA)</a>
+      <a href="pp5-ecommerce.html" class="active">PP5 (E-commerce)</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Portfolio Project 5: E-commerce Applications</h1>
+
+    <p><strong>Project purpose:</strong><br>
+      In this project, you'll build a Full-Stack site based on business logic used to control a centrally-owned dataset. You will set up an authentication mechanism and provide paid access to the site's data and/or other activities based on the dataset, such as the purchase of a product/service.</p>
+
+    <p>You will also need to create a dummy social media product page, as demonstrated in the learning material. Since Facebook often deletes dummy pages, please take screenshots after you have created the page and include them in your README.md file.</p>
+
+    <p>If you prefer not to use or create a Facebook account, even a fake one, mockups (PNG & Balsamiq) are provided. Modify them with content to match your product and include the images in your README.md file.
+
+    <p><strong>Main Technologies:</strong><br>
+      HTML, CSS, JavaScript, Python + Django<br>
+      Relational database (MySQL or Postgres recommended)<br>
+      Stripe payments</p>
+
+    <!-- Project Ideas -->
+    <details open>
+      <summary>Project Ideas</summary>
+      <p><strong>Project Idea 0</strong><br>
+        Bring your own idea(s) to life, based on providing value to users to address a specific factual or imagined need. Use the relevant project assessment criteria as a guide to the minimum required functionality. 
+
+      <p><strong>Project Example Idea 1</strong><br>
+        Build a fitness subscription application</p>
+      <p><em>External user’s goal:</em> To join a fitness community and purchase exercise plans and merchandise.</p>
+      <p><em>Site owner's goal:</em> Build an active community around the product based on subscription and individual payment models; sell exercise plans, nutrition plans, and products.</p>
+      <p><em>Primary areas of functionality:</em></p>
+      <ul>
+        <li><strong>Community:</strong> Member updates, user profiles mapped to plans, product reviews</li>
+        <li><strong>E-commerce:</strong> Subscriptions + one-off purchases; auth & roles for users/admins</li>
+        <li><strong>SEO & Marketing:</strong> Employ SEO, social media and email strategies</li>
+        <li>Authentication/authorisation for subscribers and admins
+      </ul>
+
+      <p><strong>Project Example Idea 2</strong><br>
+        Sell your graphic design services</p>
+      <p><em>External user’s goal:</em> Purchase custom graphics.</p>
+      <p><em>Site owner's goal:</em> Earn money via freelance design work.</p>
+      <ul>
+        <li>Showcase portfolio + testimonials</li>
+        <li>Order form (type/size/brief), auto quote preview (client-side), final price on server</li>
+        <li>Owner dashboard to view orders and upload deliverables</li>
+        <li>SEO, social, email marketing strategies 
+      </ul>
+    </details>
+
+    <!-- Learning Outcomes -->
+    <details>
+      <summary>Assessment Criteria — Learning Outcomes</summary>
+      <table class="criteria-table">
+        <thead><tr><th>Learning Outcome</th><th>Description</th></tr></thead>
+        <tbody>
+          <tr><td>LO1</td><td>Integrate an e-commerce payment system and product structure in a cloud-hosted Full-Stack web application</td></tr>
+          <tr><td>LO2</td><td>Employ advanced UX to build a commercial-grade Full-Stack Web Application</td></tr>
+          <tr><td>LO3</td><td>Employ SEO techniques to improve audience reach</td></tr>
+          <tr><td>LO4</td><td>Create a secure Full-Stack Web app with Authentication and role-based Authorisation</td></tr>
+          <tr><td>LO5</td><td>Employ marketing techniques to create brand reach</td></tr>
+          <tr><td>LO6</td><td>Understand the fundamentals of E-commerce applications</td></tr>
+        </tbody>
+      </table>
+    </details>
+
+    <!-- Pass Criteria -->
+    <details>
+      <summary>Assessment Criteria — Pass</summary>
+      <p><strong>Important:</strong> All Pass criteria must be achieved for a pass to be awarded.</p>
+
+      <h3>LO1: E-commerce integration & product structure</h3>
+      <table class="criteria-table">
+        <thead><tr><th>Crit.</th><th>Description</th><th>Done</th></tr></thead>
+        <tbody>
+          <tr><td>1.1</td><td>At least one Django app with e-commerce functionality using Stripe (checkout, subscriptions, single payments, donations, etc.)</td><td><input type="checkbox" id="p5e-lo1-1"></td></tr>
+          <tr><td>1.2</td><td>Feedback system that reports successful/unsuccessful purchases with helpful messages</td><td><input type="checkbox" id="p5e-lo1-2"></td></tr>
+          <tr><td>1.3</td><td>Full-Stack Django app with relational DB, interactive Front-End and multiple apps</td><td><input type="checkbox" id="p5e-lo1-3"></td></tr>
+          <tr><td>1.4</td><td>At least one validated form to create/edit models in the backend</td><td><input type="checkbox" id="p5e-lo1-4"></td></tr>
+          <tr><td>1.5</td><td>Django file structure consistent with conventions</td><td><input type="checkbox" id="p5e-lo1-5"></td></tr>
+          <tr><td>1.6</td><td>Code demonstrates ‘clean code’ characteristics</td><td><input type="checkbox" id="p5e-lo1-6"></td></tr>
+          <tr><td>1.7</td><td>Application URLs defined consistently</td><td><input type="checkbox" id="p5e-lo1-7"></td></tr>
+          <tr><td>1.8</td><td>Main navigation menu and structured layout</td><td><input type="checkbox" id="p5e-lo1-8"></td></tr>
+          <tr><td>1.9</td><td>Sufficient custom Python logic</td><td><input type="checkbox" id="p5e-lo1-9"></td></tr>
+          <tr><td>1.10</td><td>Functions include compound statements (ifs/loops)</td><td><input type="checkbox" id="p5e-lo1-10"></td></tr>
+          <tr><td>1.11</td><td>Relational schema with clear relationships</td><td><input type="checkbox" id="p5e-lo1-11"></td></tr>
+          <tr><td>1.12</td><td>Create at least THREE original custom Django models</td><td><input type="checkbox" id="p5e-lo1-12"></td></tr>
+          <tr><td>1.13</td><td>All CRUD implemented</td><td><input type="checkbox" id="p5e-lo1-13"></td></tr>
+          <tr><td>1.14</td><td>Deploy final version; test matches development</td><td><input type="checkbox" id="p5e-lo1-14"></td></tr>
+          <tr><td>1.15</td><td>No commented-out code or broken links in deployed version</td><td><input type="checkbox" id="p5e-lo1-15"></td></tr>
+          <tr><td>1.16</td><td>Security: no secrets in repo; env vars/.gitignore; DEBUG off</td><td><input type="checkbox" id="p5e-lo1-16"></td></tr>
+          <tr><td>1.17</td><td>Use git throughout; document via commits & README</td><td><input type="checkbox" id="p5e-lo1-17"></td></tr>
+          <tr><td>1.18</td><td>Well-structured README with consistent markdown</td><td><input type="checkbox" id="p5e-lo1-18"></td></tr>
+          <tr><td>1.19</td><td>Document deployment (incl. DB) & testing; explain app purpose/value</td><td><input type="checkbox" id="p5e-lo1-19"></td></tr>
+        </tbody>
+      </table>
+
+      <h3>LO2: Advanced UX for commercial-grade app</h3>
+      <table class="criteria-table">
+        <thead><tr><th>Crit.</th><th>Description</th><th>Done</th></tr></thead>
+        <tbody>
+          <tr><td>2.1</td><td>Front-End meets accessibility & UX principles; clear purpose; defined interactions</td><td><input type="checkbox" id="p5e-lo2-1"></td></tr>
+          <tr><td>2.2</td><td>User stories in Agile tool mapped to project goals</td><td><input type="checkbox" id="p5e-lo2-2"></td></tr>
+          <tr><td>2.3</td><td>Manual/automated tests for functionality, usability, responsiveness, data management</td><td><input type="checkbox" id="p5e-lo2-3"></td></tr>
+          <tr><td>2.4</td><td>README: clear rationale, purpose, target audience & user stories</td><td><input type="checkbox" id="p5e-lo2-4"></td></tr>
+          <tr><td>2.5</td><td>Document UX design work (wireframes/mockups/diagrams) and show implementation</td><td><input type="checkbox" id="p5e-lo2-5"></td></tr>
+          <tr><td>2.6</td><td>Use Agile tool to plan/implement primary functionality</td><td><input type="checkbox" id="p5e-lo2-6"></td></tr>
+          <tr><td>2.7</td><td>Document & implement all user stories mapped to goals</td><td><input type="checkbox" id="p5e-lo2-7"></td></tr>
+        </tbody>
+      </table>
+
+      <h3>LO3: SEO</h3>
+      <table class="criteria-table">
+        <thead><tr><th>Crit.</th><th>Description</th><th>Done</th></tr></thead>
+        <tbody>
+          <tr><td>3.1</td><td>Every page reachable via a link from a findable page</td><td><input type="checkbox" id="p5e-lo3-1"></td></tr>
+          <tr><td>3.2</td><td>Meta Description tags included</td><td><input type="checkbox" id="p5e-lo3-2"></td></tr>
+          <tr><td>3.3</td><td>Site title set on parent template</td><td><input type="checkbox" id="p5e-lo3-3"></td></tr>
+          <tr><td>3.4</td><td>Rel attributes: <em>nofollow</em> for paid/distrusted; <em>sponsored</em> for sponsored links</td><td><input type="checkbox" id="p5e-lo3-4"></td></tr>
+          <tr><td>3.5</td><td>Sitemap included</td><td><input type="checkbox" id="p5e-lo3-5"></td></tr>
+          <tr><td>3.6</td><td>robots.txt included</td><td><input type="checkbox" id="p5e-lo3-6"></td></tr>
+          <tr><td>3.7</td><td>404 page with appropriate redirect for non-existent content</td><td><input type="checkbox" id="p5e-lo3-7"></td></tr>
+          <tr><td>3.8</td><td>No Lorem Ipsum; all text supports purpose</td><td><input type="checkbox" id="p5e-lo3-8"></td></tr>
+        </tbody>
+      </table>
+
+      <h3>LO4: Auth & role-based authorisation</h3>
+      <table class="criteria-table">
+        <thead><tr><th>Crit.</th><th>Description</th><th>Done</th></tr></thead>
+        <tbody>
+          <tr><td>4.1</td><td>Authentication (register/login) with a clear reason to log in</td><td><input type="checkbox" id="p5e-lo4-1"></td></tr>
+          <tr><td>4.2</td><td>Login/registration pages only for anonymous users</td><td><input type="checkbox" id="p5e-lo4-2"></td></tr>
+          <tr><td>4.3</td><td>Prevent direct datastore access by non-admins without going through code</td><td><input type="checkbox" id="p5e-lo4-3"></td></tr>
+          <tr><td>4.4</td><td>Role-based login/registration</td><td><input type="checkbox" id="p5e-lo4-4"></td></tr>
+          <tr><td>4.5</td><td>Reflect current login state to the user</td><td><input type="checkbox" id="p5e-lo4-5"></td></tr>
+          <tr><td>4.6</td><td>No access to restricted content before role-based login</td><td><input type="checkbox" id="p5e-lo4-6"></td></tr>
+        </tbody>
+      </table>
+
+      <h3>LO5: Marketing</h3>
+      <table class="criteria-table">
+        <thead><tr><th>Crit.</th><th>Description</th><th>Done</th></tr></thead>
+        <tbody>
+          <tr><td>5.1</td><td>Create a Facebook Business Page (or include edited mockups/screens in README)</td><td><input type="checkbox" id="p5e-lo5-1"></td></tr>
+          <tr><td>5.2</td><td>Add a newsletter signup form</td><td><input type="checkbox" id="p5e-lo5-2"></td></tr>
+        </tbody>
+      </table>
+
+      <h3>LO6: E-commerce fundamentals</h3>
+      <table class="criteria-table">
+        <thead><tr><th>Crit.</th><th>Description</th><th>Done</th></tr></thead>
+        <tbody>
+          <tr><td>6.1</td><td>Document the e-commerce business model underlying your application</td><td><input type="checkbox" id="p5e-lo6-1"></td></tr>
+        </tbody>
+      </table>
+    </details>
+
+    <!-- Merit Criteria -->
+    <details>
+      <summary>Assessment Criteria — Merit</summary>
+      <p>Must achieve all Pass + Merit criteria. The app is fully functioning, documented, RDMS-backed, with complete CRUD and working payments; UX/accessibility; responsive; schema documented; config centralised; deployed (e.g., Heroku); SEO + marketing strategies in place.</p>
+
+      <table class="criteria-table">
+        <thead><tr><th>Crit.</th><th>Description</th><th>Done</th></tr></thead>
+        <tbody>
+          <tr><td>M1.1</td><td>Design & build a real-world MVC e-commerce app with an easy, intuitive Front-End</td><td><input type="checkbox" id="p5e-m-11"></td></tr>
+          <tr><td>M1.2</td><td>Produce a fully robust codebase</td><td><input type="checkbox" id="p5e-m-12"></td></tr>
+          <tr><td>M1.3</td><td>All CRUD actions immediately reflected in the UI</td><td><input type="checkbox" id="p5e-m-13"></td></tr>
+          <tr><td>M1.4</td><td>Thorough manual/automated tests (JS and/or Python) evidenced in commits</td><td><input type="checkbox" id="p5e-m-14"></td></tr>
+          <tr><td>M1.5</td><td>Efficient configuration (Procfile, requirements, settings); datastore config centralised</td><td><input type="checkbox" id="p5e-m-15"></td></tr>
+          <tr><td>M1.6</td><td>README fully describes data schema</td><td><input type="checkbox" id="p5e-m-16"></td></tr>
+          <tr><td>M1.7</td><td>Effective use of version control</td><td><input type="checkbox" id="p5e-m-17"></td></tr>
+          <tr><td>M2.1</td><td>User has full control of interactions</td><td><input type="checkbox" id="p5e-m-21"></td></tr>
+          <tr><td>M2.2</td><td>Site purpose immediately evident</td><td><input type="checkbox" id="p5e-m-22"></td></tr>
+          <tr><td>M2.3</td><td>Good solution to user demands/expectations</td><td><input type="checkbox" id="p5e-m-23"></td></tr>
+          <tr><td>M3.1</td><td>Control sitemap access via robots.txt</td><td><input type="checkbox" id="p5e-m-31"></td></tr>
+          <tr><td>M3.2</td><td>All sitemap links canonical</td><td><input type="checkbox" id="p5e-m-32"></td></tr>
+          <tr><td>M3.3</td><td>Descriptive metadata accurately reflects purpose</td><td><input type="checkbox" id="p5e-m-33"></td></tr>
+          <tr><td>M4.1</td><td>Users only access intended views/functionality</td><td><input type="checkbox" id="p5e-m-41"></td></tr>
+          <tr><td>M5.1</td><td>Document primary marketing strategy</td><td><input type="checkbox" id="p5e-m-51"></td></tr>
+          <tr><td>M6.1</td><td>Clear, well-defined purpose addressing target audience needs</td><td><input type="checkbox" id="p5e-m-61"></td></tr>
+        </tbody>
+      </table>
+
+      <p><strong>Important:</strong> All Merit criteria must be achieved for a merit to be awarded.</p>
+    </details>
+
+    <!-- Distinction Criteria -->
+    <details>
+      <summary>Assessment Criteria — Distinction</summary>
+      <p>All Pass & Merit met + publishable quality, pro-grade UI/interaction, no logic errors, justified deviations, craftsmanship, original work. SEO/Marketing and Security evidenced; Django conventions followed; robust design, data & testing; no broken links; no console errors.</p>
+
+      <h4>Front-End Design</h4>
+      <details>
+        <summary><strong>Information Hierarchy</strong></summary>
+        <ul>
+          <li>Semantic structure; organised, easy-to-find information <input type="checkbox" id="p5e-d-ih-1"></li>
+          <li>Resources easy to find; intuitive navigation <input type="checkbox" id="p5e-d-ih-2"></li>
+          <li>Information prioritised appropriately <input type="checkbox" id="p5e-d-ih-3"></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><strong>User Control</strong></summary>
+        <ul>
+          <li>Positive interaction via layout/colour/navigation/feedback <input type="checkbox" id="p5e-d-uc-1"></li>
+          <li>No aggressive pop-ups/autoplay; user-initiated media <input type="checkbox" id="p5e-d-uc-2"></li>
+          <li>404/unknown routes redirect back to safety <input type="checkbox" id="p5e-d-uc-3"></li>
+          <li>Don’t ask for data you already have <input type="checkbox" id="p5e-d-uc-4"></li>
+          <li>Progress indicators & transaction feedback <input type="checkbox" id="p5e-d-uc-5"></li>
+          <li>User/data errors reported clearly <input type="checkbox" id="p5e-d-uc-6"></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><strong>Consistency, Confirmation & Accessibility</strong></summary>
+        <ul>
+          <li>Consistency across pages, interactivity & reporting <input type="checkbox" id="p5e-d-cons-1"></li>
+          <li>Confirm actions; constant feedback <input type="checkbox" id="p5e-d-conf-1"></li>
+          <li>Accessibility conformance across pages & interactions; deviations explained <input type="checkbox" id="p5e-d-acc-1"></li>
+        </ul>
+      </details>
+
+      <h4>Development & Implementation</h4>
+      <details>
+        <summary><strong>Clean Code & File Structure</strong></summary>
+        <ul>
+          <li>Consistent naming; no spaces; lower-case dirs; meaningful identifiers; consistent URLs <input type="checkbox" id="p5e-d-name-1"></li>
+          <li>Group files by type; clear separation of custom vs libraries; descriptive names <input type="checkbox" id="p5e-d-files-1"></li>
+          <li>Well-commented sections; consistent indentation; no repeated blank lines >2 <input type="checkbox" id="p5e-d-read-1"></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><strong>Compliance & Robustness</strong></summary>
+        <ul>
+          <li>HTML (W3C), CSS (Jigsaw), JS (linter), Python (PEP8 or stated) pass checks <input type="checkbox" id="p5e-d-comp-1"></li>
+          <li>No logic errors; handle user errors; handle failed API calls gracefully; inputs validated <input type="checkbox" id="p5e-d-rob-1"></li>
+          <li>Back/forward never breaks site; no broken links; no console errors <input type="checkbox" id="p5e-d-rob-2"></li>
+        </ul>
+      </details>
+
+      <h4>Real-World Application, SEO/Marketing & Security</h4>
+      <ul>
+        <li>Real content (no Lorem Ipsum) <input type="checkbox" id="p5e-d-real-1"></li>
+        <li>External links open in new tabs; aligned to user stories; comprehensive testing with evidence in commits <input type="checkbox" id="p5e-d-real-2"></li>
+        <li>SEO & marketing strategies evident and documented <input type="checkbox" id="p5e-d-mkt-1"></li>
+        <li>Secrets in env/.gitignore; login-required features gated; permissions appropriate <input type="checkbox" id="p5e-d-sec-1"></li>
+      </ul>
+
+      <h4>Django Conventions</h4>
+      <ul>
+        <li>Templates, Apps, Models, Views used correctly; logic placed per MVC(T) best practice <input type="checkbox" id="p5e-d-dj-1"></li>
+        <li>Configuration & settings well-organised <input type="checkbox" id="p5e-d-dj-2"></li>
+      </ul>
+
+      <h4>Data & Config</h4>
+      <ul>
+        <li>Data fully modelled; matches schema; config centralised & changeable <input type="checkbox" id="p5e-d-data-1"></li>
+        <li>Well-structured entities & relationships; shared data across apps (no duplication) <input type="checkbox" id="p5e-d-data-2"></li>
+        <li>All CRUD works and reflects immediately in the Front-End; deps/config up to date; datastore not directly accessible <input type="checkbox" id="p5e-d-data-3"></li>
+      </ul>
+
+      <h4>Testing Evidence</h4>
+      <ul>
+        <li>Comprehensive coverage; followed; errors fixed or documented; navigation resilient <input type="checkbox" id="p5e-d-test-1"></li>
+      </ul>
+    </details>
+
+  </main>
+
+  <footer>© Code Institute Assessment Criteria Checklist</footer>
+  <script src="scripts/checklist.js"></script>
+</body>
+</html>

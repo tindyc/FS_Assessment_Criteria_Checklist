@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Project 2: JavaScript Essentials</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <img src="assets/ci_logo.png" alt="Code Institute Logo" />
+    <nav>
+      <a href="pp1.html">PP1</a>
+      <a href="pp2.html">PP2</a>
+      <a href="pp3.html">PP3</a>
+      <a href="pp4.html">PP4</a>
+      <a href="pp5-pa.html">PP5 (PA)</a>
+      <a href="pp5-ecommerce.html" class="active">PP5 (E-commerce)</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Portfolio Project 2: JavaScript Essentials</h1>
+
+    <p><strong>Project Purpose:</strong> Presentation of interactive data</p>
+    <p>In this project, you'll build an interactive front-end site. The site should respond to the users' actions, allowing users to actively engage with data, alter the way the site displays the information to achieve their preferred goals.</p>
+    <p><strong>Main Technologies:</strong> HTML, CSS, JavaScript</p>
+    <p><strong>Optional:</strong> Google Charts</p>
+
+    <!-- Project Ideas -->
+    <details open>
+      <summary>Project Ideas</summary>
+      <p>You can either choose to build the website based on Project Idea 0, or take inspiration from the other example ideas below.</p>
+
+      <p><strong>Project Idea 0:</strong> Bring your own idea(s) to life, based on providing value to users to address a specific real or imagined need. Use the relevant project assessment criteria as a guide to the minimum required functionality.</p>
+
+      <p><strong>Project Example Idea 1:</strong> Build a Rock, Paper, Scissors, Lizard, Spock Game<br>
+      <em>External user's goal:</em> The site's users want to play an online game that has elements of chance.<br>
+      <em>Site owner's goal:</em> The site's goal is to provide a challenging game with increasing levels of difficulty to entertain online users.<br>
+      <em>Potential features to include:</em> Pattern matching functionality, a limited number of tries before the game is over, a score tracking system, the ability to play against the computer.</p>
+
+      <p><strong>Project Example Idea 2:</strong> Build an Online Quiz<br>
+      <em>External user's goal:</em> The site's users want to play an online quiz to test general/specific knowledge such as sports/movies/literary knowledge or personality assessment.<br>
+      <em>Site owner's goal:</em> The goal of the site is to provide a challenging quiz to entertain online users.<br>
+      <em>Potential features to include:</em> A score tracking system, images to support the correct/incorrect answers, user can create a username, feedback.</p>
+
+      <p><strong>Project Example Idea 3:</strong> Build a NaturalWorld/Sport/Finance/Geopolitical Trends Website<br>
+      <em>External user's goal:</em> The site's users are interested in gaining insights into data relationships representing particular events or activities.<br>
+      <em>Site owner's goal:</em> The site's goal is to provide easily digestible data representations that lead to user actionable insights.<br>
+      <em>Potential features to include:</em> Charting functionality to represent the data in an easily digestible manner, supporting facts surrounding the data and any insights gleaned from the data.</p>
+    </details>
+
+    <!-- Pass Criteria -->
+    <details>
+      <summary>Assessment Criteria — Pass</summary>
+      <p><strong>Important:</strong> All Pass criteria must be achieved for a pass to be awarded.</p>
+      <table class="criteria-table">
+        <thead>
+          <tr>
+            <th>Learning Outcome</th>
+            <th>Criterion</th>
+            <th>Description</th>
+            <th>Done</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- LO1 -->
+          <tr><td rowspan="9">LO1</td><td>1.1</td><td>Design a web application that meets accessibility guidelines, follows the principles of UX design and presents a structured layout and navigation model, and meets its given purpose</td><td><input type="checkbox" id="p2-lo1-1"></td></tr>
+          <tr><td>1.2</td><td>Design a website that meets accessibility guidelines (e.g. contrast between background and foreground colours to cater for the visually impaired) Optionally, add alt text for non-text elements</td><td><input type="checkbox" id="p2-lo1-2"></td></tr>
+          <tr><td>1.3</td><td>Design the organisation of information on the page following the principles of user experience design (headers are used to convey structure, information is easy to find due to being presented and categorised in terms of priority)</td><td><input type="checkbox" id="p2-lo1-3"></td></tr>
+          <tr><td>1.4</td><td>Ensure that foreground information is never distracted by backgrounds</td><td><input type="checkbox" id="p2-lo1-4"></td></tr>
+          <tr><td>1.5</td><td>Include graphics that are consistent in style and colour</td><td><input type="checkbox" id="p2-lo1-5"></td></tr>
+          <tr><td>1.6</td><td>Design interactivity for a web application that lets the user initiate and control actions, and gives feedback</td><td><input type="checkbox" id="p2-lo1-6"></td></tr>
+          <tr><td>1.7</td><td>Write custom JavaScript, HTML and CSS code to create a responsive front-end web application consisting of one or more HTML pages with significant interactive functionality</td><td><input type="checkbox" id="p2-lo1-7"></td></tr>
+          <tr><td>1.8</td><td>Write JavaScript code to produce relevant responses to user actions</td><td><input type="checkbox" id="p2-lo1-8"></td></tr>
+          <tr><td>1.9</td><td>Implement an interactive web application that incorporates images or graphics of usable resolution, legible, unobscured text, consistent styling, undistracted foregrounds</td><td><input type="checkbox" id="p2-lo1-9"></td></tr>
+
+          <!-- LO2 -->
+          <tr><td rowspan="8">LO2</td><td>2.1</td><td>Write JavaScript code that passes through a linter (e.g. Jshint) with no significant issues.</td><td><input type="checkbox" id="p2-lo2-1"></td></tr>
+          <tr><td>2.2</td><td>Write custom HTML code that passes through the official W3C validator with no issues.</td><td><input type="checkbox" id="p2-lo2-2"></td></tr>
+          <tr><td>2.3</td><td>Write custom CSS code that passes through the official (Jigsaw) validator with no issues</td><td><input type="checkbox" id="p2-lo2-3"></td></tr>
+          <tr><td>2.4</td><td>Code all external links to open in a separate tab when clicked</td><td><input type="checkbox" id="p2-lo2-4"></td></tr>
+          <tr><td>2.5</td><td>Use CSS media queries across the application to ensure the layout changes appropriately and maintains the page's structural integrity across device screen sizes.</td><td><input type="checkbox" id="p2-lo2-5"></td></tr>
+          <tr><td>2.6</td><td>Use Semantic markup to structure HTML code</td><td><input type="checkbox" id="p2-lo2-6"></td></tr>
+          <tr><td>2.7</td><td>Present the finished website with clearly understandable site-specific content, rather than Lorem Ipsum placeholder text</td><td><input type="checkbox" id="p2-lo2-7"></td></tr>
+          <tr><td>2.8</td><td>If used, implement clear navigation to allow users to find resources on the site intuitively.</td><td><input type="checkbox" id="p2-lo2-8"></td></tr>
+
+          <!-- LO3 -->
+          <tr><td rowspan="4">LO3</td><td>3.1</td><td>Deploy a final version of the code to a cloud-based hosting platform (e.g. GitHub Pages) and test to ensure it matches the development version</td><td><input type="checkbox" id="p2-lo3-1"></td></tr>
+          <tr><td>3.2</td><td>Use Git & GitHub for version control of an interactive web application up to deployment.</td><td><input type="checkbox" id="p2-lo3-2"></td></tr>
+          <tr><td>3.3</td><td>Remove commented-out code before pushing final changes to version control and deploying.</td><td><input type="checkbox" id="p2-lo3-3"></td></tr>
+          <tr><td>3.4</td><td>Ensure that there are no broken internal links</td><td><input type="checkbox" id="p2-lo3-4"></td></tr>
+
+          <!-- LO4 -->
+          <tr><td rowspan="10">LO4</td><td>4.1</td><td>Write a README.md file for the web application that explains its purpose, the value that it provides to its users, and the deployment procedure.</td><td><input type="checkbox" id="p2-lo4-1"></td></tr>
+          <tr><td>4.2</td><td>Insert screenshots of the project features, give a brief description of what each feature does and explain its value to the user.</td><td><input type="checkbox" id="p2-lo4-2"></td></tr>
+          <tr><td>4.3</td><td>Attribute all code from external sources to its original source via comments above the code and (for larger dependencies) in the README.</td><td><input type="checkbox" id="p2-lo4-3"></td></tr>
+          <tr><td>4.4</td><td>Clearly separate and identify code written for the website and code from external sources (e.g. libraries or tutorials)</td><td><input type="checkbox" id="p2-lo4-4"></td></tr>
+          <tr><td>4.5</td><td>Organise HTML, CSS and JavaScript code into well-defined and commented sections</td><td><input type="checkbox" id="p2-lo4-5"></td></tr>
+          <tr><td>4.6</td><td>Place CSS code in external files linked to the HTML page in the HEAD element.</td><td><input type="checkbox" id="p2-lo4-6"></td></tr>
+          <tr><td>4.7</td><td>Place JavaScript code in external files linked to the HTML page just above the closing body tag.</td><td><input type="checkbox" id="p2-lo4-7"></td></tr>
+          <tr><td>4.8</td><td>Write code that meets at least minimum standards for readability (consistent indentation, blank lines only appear individually or, at most, in pairs)</td><td><input type="checkbox" id="p2-lo4-8"></td></tr>
+          <tr><td>4.9</td><td>Name files consistently and descriptively, without spaces or capitalisation to allow for cross-platform compatibility.</td><td><input type="checkbox" id="p2-lo4-9"></td></tr>
+          <tr><td>4.10</td><td>Group files in directories by file type (e.g. an assets directory will contain all static files and may be organised into sub-directories such as CSS, images, etc.)</td><td><input type="checkbox" id="p2-lo4-10"></td></tr>
+
+          <!-- LO5 -->
+          <tr><td rowspan="1">LO5</td><td>5.1</td><td>Use consistent and effective markdown formatting that is well-structured, easy to follow, and has few grammatical errors, when writing a README file.</td><td><input type="checkbox" id="p2-lo5-1"></td></tr>
+
+          <!-- LO6 -->
+          <tr><td rowspan="5">LO6</td><td>6.1</td><td>Write JavaScript functions that correctly implement compound statements, such as if conditions and loops.</td><td><input type="checkbox" id="p2-lo6-1"></td></tr>
+          <tr><td>6.2</td><td>Write code that intelligently handles empty or invalid input data.</td><td><input type="checkbox" id="p2-lo6-2"></td></tr>
+          <tr><td>6.3</td><td>Implement appropriate working functionality for all project requirements.</td><td><input type="checkbox" id="p2-lo6-3"></td></tr>
+          <tr><td>6.4</td><td>Write code that does not generate internal errors on the page or in the console due to user actions.</td><td><input type="checkbox" id="p2-lo6-4"></td></tr>
+          <tr><td>6.5</td><td>Organise code and assets files in directories by file type.</td><td><input type="checkbox" id="p2-lo6-5"></td></tr>
+        </tbody>
+      </table>
+    </details>
+
+    <!-- Merit Criteria -->
+    <details>
+      <summary>Assessment Criteria — Merit</summary>
+      <p><strong>Important:</strong> All Merit criteria must be achieved for merit to be awarded.</p>
+      
+      <h3>Merit Performance Overview</h3>
+      <p>The learner has a clear rationale for developing this project and has produced a fully functioning, well-documented, interactive web application for a real-life audience, with specific content rather than placeholders. There is a range of interactive features. Data validation and user feedback are all evident in the code and the working application. There are no logical errors in the code, and the application functions as expected.</p>
+
+      <table class="criteria-table">
+        <thead>
+          <tr><th>Criterion</th><th>Description</th><th>Done</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>1.1</td><td>Design a website with a flow of information layout and interaction feedback that is clear and unambiguous</td><td><input type="checkbox" id="p2-m1-1"></td></tr>
+          <tr><td>1.2</td><td>Implement a web application whose purpose is immediately evident to a new user</td><td><input type="checkbox" id="p2-m1-2"></td></tr>
+          <tr><td>1.3</td><td>Implement a website that provides an excellent solution to the key project goals, demands and expectations.</td><td><input type="checkbox" id="p2-m1-3"></td></tr>
+          <tr><td>2.1</td><td>Document any bugs found and their fixes and explanation of any bugs that are left unfixed.</td><td><input type="checkbox" id="p2-m2-1"></td></tr>
+          <tr><td>3.1</td><td>Commit often for each feature/fix, ensuring that commits are small, well-defined and have clear, descriptive messages</td><td><input type="checkbox" id="p2-m3-1"></td></tr>
+          <tr><td>4.1</td><td>Present a clear rationale for the development of the project, in the README, - Key project goals, target audience</td><td><input type="checkbox" id="p2-m4-1"></td></tr>
+          <tr><td>5.1</td><td>Document the deployment procedure in a section in a README file, written using consistent and effective markdown formatting that is well-structured, easy to follow, and has few grammatical errors</td><td><input type="checkbox" id="p2-m5-1"></td></tr>
+          <tr><td>6.1</td><td>Design a web application that lets the user initiate and control actions and gives feedback</td><td><input type="checkbox" id="p2-m6-1"></td></tr>
+        </tbody>
+      </table>
+    </details>
+
+    <!-- Distinction -->
+    <details>
+      <summary>Assessment Criteria — Distinction</summary>
+      <p><strong>Important:</strong> At this level, a learner will have achieved all pass and merit criteria, and will demonstrate characteristics of high-level performance as described below.</p>
+      
+      <h3>Distinction Performance Overview</h3>
+      <p>The learner has documented a clear, justified rationale for a real-world application. The development of the project has resulted in a fully-functioning, interactive web application.</p>
+      
+      <p>The finished project is judged to be publishable in its current form with an evidenced professional-grade user interface and interaction adhering to current practice. There are no logic errors in the code. Where there is a clear breach of accepted design/UX principles or accepted good practice in code organisation, these are fully justified, appropriate and acceptable to the target user. It matches the design and demonstrates the characteristics of craftsmanship in the code. The resulting application is original and not a copy of any walkthrough projects encountered in the unit.</p>
+
+      <h3>Amplification (Craftsmanship)</h3>
+      
+      <h4>Design</h4>
+      <p>The design of the web application demonstrates the main principles of good UX design:</p>
+      
+      <details>
+        <summary><strong>Information Hierarchy</strong></summary>
+        <ul>
+          <li>Semantic markup is used to convey structure - all information displayed on the site is presented in an organised fashion, with each piece of information being easy to find <input type="checkbox" id="p2-d-ih-1"></li>
+          <li>All resources on the site are easy to find, allowing users to navigate the layout of the site intuitively <input type="checkbox" id="p2-d-ih-2"></li>
+          <li>Information is presented and categorised in terms of its priority <input type="checkbox" id="p2-d-ih-3"></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><strong>User Control</strong></summary>
+        <ul>
+          <li>All interaction with the site would be likely to produce a positive emotional response within the user. This is down to the flow of information layout, use of colour, clear and unambiguous navigation structures and all interaction feedback <input type="checkbox" id="p2-d-uc-1"></li>
+          <li>When displaying media files, the site avoids aggressive automatic pop-ups and autoplay of audio; instead letting the user initiate and control such actions <input type="checkbox" id="p2-d-uc-2"></li>
+          <li>The user is shown progress indicators where relevant <input type="checkbox" id="p2-d-uc-3"></li>
+          <li>Errors resulting from user actions are reported to the user <input type="checkbox" id="p2-d-uc-4"></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><strong>Consistency</strong></summary>
+        <ul>
+          <li>Evident across all pages/sections and covers interactivity as well as design <input type="checkbox" id="p2-d-cons-1"></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><strong>Confirmation</strong></summary>
+        <ul>
+          <li>User actions are confirmed where appropriate, feedback is given at all times <input type="checkbox" id="p2-d-conf-1"></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><strong>Accessibility</strong></summary>
+        <ul>
+          <li>There is evident conformity to accessibility guidelines across all pages/sections and in all interactivity <input type="checkbox" id="p2-d-acc-1"></li>
+          <li>Any design decisions that contravene accepted user interaction, user experience design principles are identified and described (comments in code or a section in the README) <input type="checkbox" id="p2-d-acc-2"></li>
+        </ul>
+      </details>
+
+      <h4>Development and Implementation</h4>
+      <p>Code demonstrates the characteristics of 'clean code':</p>
+
+      <details>
+        <summary><strong>Consistent and Appropriate Naming Conventions</strong></summary>
+        <ul>
+          <li>File names, class names, function names and variable names are descriptive and consistent <input type="checkbox" id="p2-d-naming-1"></li>
+          <li>For cross-platform compatibility, file and directory names will not have spaces in them and will be lower-case only <input type="checkbox" id="p2-d-naming-2"></li>
+          <li>All HTML attributes, CSS rules, code variables and function names are consistent in format, follow standards for the language and are appropriate and meaningful <input type="checkbox" id="p2-d-naming-3"></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><strong>File Structure</strong></summary>
+        <ul>
+          <li>Whenever relevant, files are grouped in directories by file type (e.g. an assets directory will contain all static files, and code may be organised into sub-directories such as css, js, etc.) <input type="checkbox" id="p2-d-file-1"></li>
+          <li>There is a clear separation between custom code and any external files (for example, library files are all inside a directory named 'libraries') <input type="checkbox" id="p2-d-file-2"></li>
+          <li>Files are named consistently and descriptively, without spaces or capitalisation to allow for cross-platform compatibility <input type="checkbox" id="p2-d-file-3"></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><strong>Readability</strong></summary>
+        <ul>
+          <li>Code is indented in a consistent manner to ease readability, and there are no unnecessary repeated blank lines (and never more than 2) <input type="checkbox" id="p2-d-read-1"></li>
+          <li>id/class(CSS and JavaScript)/function/variable names clearly indicate their purpose <input type="checkbox" id="p2-d-read-2"></li>
+          <li>All code is split into well-defined and commented sections <input type="checkbox" id="p2-d-read-3"></li>
+          <li>Semantic markup is used to structure HTML code <input type="checkbox" id="p2-d-read-4"></li>
+          <li>HTML, CSS and Javascript are kept in separate, linked files <input type="checkbox" id="p2-d-read-5"></li>
+          <li>CSS files are linked to in the HTML file's head element <input type="checkbox" id="p2-d-read-6"></li>
+          <li>Non-trivial Javascript code files are linked to at the bottom of the body element (or bottom of the head element if needs loaded before the body HTML) <input type="checkbox" id="p2-d-read-7"></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><strong>Defensive Design</strong></summary>
+        <ul>
+          <li>All input data is validated (e.g. presence check, format check, range check) <input type="checkbox" id="p2-d-def-1"></li>
+          <li>Internal errors are handled gracefully, and users are notified of the problem where appropriate <input type="checkbox" id="p2-d-def-2"></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><strong>Comments</strong></summary>
+        <ul>
+          <li>All custom code files include clear and relevant comments explaining the purpose of code segments <input type="checkbox" id="p2-d-comm-1"></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><strong>Compliant Code</strong></summary>
+        <ul>
+          <li>HTML code passes through the official W3C validator with no issues <input type="checkbox" id="p2-d-comp-1"></li>
+          <li>CSS code passes through the official (Jigsaw) validator with no issues <input type="checkbox" id="p2-d-comp-2"></li>
+          <li>JavaScript code passes through a linter (e.g. jshint.com) with no significant issues <input type="checkbox" id="p2-d-comp-3"></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><strong>Robust Code</strong></summary>
+        <ul>
+          <li>No logic errors are found when running code <input type="checkbox" id="p2-d-rob-1"></li>
+          <li>Errors caused by user actions are handled <input type="checkbox" id="p2-d-rob-2"></li>
+          <li>Where used, API calls that fail to execute or return data will be handled gracefully, with the site users notified in an obvious way <input type="checkbox" id="p2-d-rob-3"></li>
+          <li>Inputs are validated when necessary <input type="checkbox" id="p2-d-rob-4"></li>
+          <li>Navigating between pages via the back/forward buttons can never break the site. There are no broken links <input type="checkbox" id="p2-d-rob-5"></li>
+          <li>User actions do not cause internal errors on the page or in the console <input type="checkbox" id="p2-d-rob-6"></li>
+        </ul>
+      </details>
+
+      <h4>Real-World Application</h4>
+      <ul>
+        <li>Understandable site-specific content is used rather than Lorem Ipsum placeholder text <input type="checkbox" id="p2-d-real-1"></li>
+        <li>All links to external pages open in a separate tab when clicked <input type="checkbox" id="p2-d-real-2"></li>
+        <li>The final application is aligned to the critical project needs and user expectations <input type="checkbox" id="p2-d-real-3"></li>
+        <li>The entire design is implemented, providing an excellent solution to the users' demands and expectations <input type="checkbox" id="p2-d-real-4"></li>
+      </ul>
+
+      <h4>Version Control</h4>
+      <ul>
+        <li>All code is managed in git with commit messages that reflect the specific reason for the commit <input type="checkbox" id="p2-d-vc-1"></li>
+        <li>There is a separate, well-defined commit for each individual feature/fix <input type="checkbox" id="p2-d-vc-2"></li>
+        <li>There are no very large commits which make it harder to understand the development process and could lead the assessor to suspect plagiarism <input type="checkbox" id="p2-d-vc-3"></li>
+      </ul>
+
+      <h4>Documentation</h4>
+      <ul>
+        <li>The purpose of the application is clearly described in the README <input type="checkbox" id="p2-d-doc-1"></li>
+        <li>There is a clear separation between code written by the learner and code from external sources (e.g. libraries or tutorials). All code from external sources is attributed to its source via comments above the code and (for more extensive dependencies) in the README <input type="checkbox" id="p2-d-doc-2"></li>
+        <li>The deployment procedure is fully documented in a section in the README file <input type="checkbox" id="p2-d-doc-3"></li>
+        <li>Clear, well-described, explanatory commit messages describe the development process <input type="checkbox" id="p2-d-doc-4"></li>
+        <li>The README is well-structured and easy to follow <input type="checkbox" id="p2-d-doc-5"></li>
+        <li>The README file is written in markdown and uses markdown formatting consistently and effectively <input type="checkbox" id="p2-d-doc-6"></li>
+        <li>The application's user interface has few errors in spelling and grammar <input type="checkbox" id="p2-d-doc-7"></li>
+      </ul>
+    </details>
+
+  </main>
+
+  <footer>© Code Institute Assessment Criteria Checklist</footer>
+  <script src="scripts/checklist.js"></script>
+</body>
+</html>

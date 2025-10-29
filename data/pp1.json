@@ -1,0 +1,17 @@
+{
+  "title": "Portfolio Project 1",
+  "subtitle": "Checklist",
+  "sections": [
+    {
+      "pill": "INFO",
+      "title": "Content placeholder",
+      "open": true,
+      "items": [
+        {
+          "id": "1.1",
+          "text": "Replace this with real criteria in data/pp1.json"
+        }
+      ]
+    }
+  ]
+}

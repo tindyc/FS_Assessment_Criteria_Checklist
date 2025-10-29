@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Project 4: Full-Stack Toolkit</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <img src="assets/ci_logo.png" alt="Code Institute Logo" />
+    <nav>
+      <a href="pp1.html">PP1</a>
+      <a href="pp2.html">PP2</a>
+      <a href="pp3.html">PP3</a>
+      <a href="pp4.html">PP4</a>
+      <a href="pp5-pa.html">PP5 (PA)</a>
+      <a href="pp5-ecommerce.html" class="active">PP5 (E-commerce)</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Portfolio Project 4: Full-Stack Toolkit</h1>
+
+    <p><strong>Project purpose:</strong><br>
+      In this project, you'll build a Full-Stack site based on business logic used to control a centrally-owned dataset. You will set up an authentication mechanism and provide role-based access to the site's data or other activities based on the dataset.</p>
+
+    <p><strong>Main Technologies:</strong><br>
+      HTML, CSS, JavaScript, Python + Django<br>
+      Relational database (recommending MySQL or Postgres)</p>
+
+    <!-- Project Ideas -->
+    <details open>
+      <summary>Project Ideas</summary>
+      <p>You can either choose to build the website based on Project Idea 0 or take inspiration from the other example ideas below.</p>
+
+      <p><strong>Project Idea 0</strong><br>
+        Bring your idea(s) to life, based on providing value to users to address a specific factual or imagined need. Use the relevant project assessment criteria as a guide to the minimum required functionality</p>
+
+      <p><strong>Project Example Idea 1</strong><br>
+        A Restaurant booking System</p>
+      <p><em>External user’s goal:</em><br>
+        The user would like to book one or more guests for a meal in a restaurant and a particular time and date.</p>
+      <p><em>Site owner's goal:</em><br>
+        The site owner would like the ability to take online bookings for their eatery.</p>
+      <p><em>Potential features to include:</em></p>
+      <ul>
+        <li>Date/Time-based bookings</li>
+        <li>Avoid double bookings</li>
+        <li>Multiple table occupancies</li>
+        <li>Cancellations</li>
+        <li>Menu</li>
+      </ul>
+
+      <p><strong>Project Example Idea 2</strong><br>
+        Reddit style news site</p>
+      <p><em>External user’s goal:</em><br>
+        Users want to post, read and comment on news stories.</p>
+      <p><em>Site owner's goal:</em><br>
+        The site owner would like to create a discussion community.</p>
+      <p><em>Potential features to include:</em></p>
+      <ul>
+        <li>Posts can be up/downvoted</li>
+        <li>Comments can be left on a post</li>
+        <li>Time/Date of posting</li>
+        <li>Topic groupings/categories</li>
+      </ul>
+    </details>
+
+    <!-- Learning Outcomes -->
+    <details>
+      <summary>Assessment Criteria — Learning Outcomes</summary>
+      <table class="criteria-table">
+        <thead>
+          <tr><th>Learning Outcome</th><th>Description</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>LO1</td><td>Use an Agile methodology to plan and design a Full-Stack Web application using an MVC framework and related contemporary technologies.</td></tr>
+          <tr><td>LO2</td><td>Implement a data model, application features and business logic to manage, query and manipulate data to meet given needs in a particular real-world domain.</td></tr>
+          <tr><td>LO3</td><td>Identify and apply authorisation, authentication and permission features in a Full-Stack web application solution.</td></tr>
+          <tr><td>LO4</td><td>Create manual and/or automated tests for a Full-Stack Web application using an MVC framework and related contemporary technologies</td></tr>
+          <tr><td>LO5</td><td>Use a distributed version control system and a repository hosting service to document, develop and maintain a Full-Stack Web application using an MVC framework and related contemporary technologies.</td></tr>
+          <tr><td>LO6</td><td>Deploy a Full-Stack Web application using an MVC framework and related contemporary technologies to a cloud-based platform</td></tr>
+          <tr><td>LO7</td><td>Understand and use object-based software concepts</td></tr>
+        </tbody>
+      </table>
+    </details>
+
+    <!-- Pass Criteria -->
+    <details>
+      <summary>Assessment Criteria — Pass</summary>
+      <p><strong>Important:</strong> All Pass criteria must be achieved for a pass to be awarded.</p>
+
+      <h3>LO1: Agile planning & design (MVC + contemporary tech)</h3>
+      <table class="criteria-table">
+        <thead><tr><th>Criterion</th><th>Description</th><th>Done</th></tr></thead>
+        <tbody>
+          <tr><td>1.1</td><td>Design a Front-End for a data-driven web application that meets accessibility guidelines, follows the principles of UX design, meets its given purpose and provides a set of user interactions.</td><td><input type="checkbox" id="p4-lo1-1"></td></tr>
+          <tr><td>1.2</td><td>Implement custom HTML and CSS code to create a responsive Full-Stack application consisting of one or more HTML pages with relevant responses to user actions and a set of data manipulation functions</td><td><input type="checkbox" id="p4-lo1-2"></td></tr>
+          <tr><td>1.3</td><td>Build a database-backed MVC web application that allows users to store and manipulate data records about a particular domain.</td><td><input type="checkbox" id="p4-lo1-3"></td></tr>
+          <tr><td>1.4</td><td>Design a database structure relevant for your domain, consisting of a minimum of one custom model.</td><td><input type="checkbox" id="p4-lo1-4"></td></tr>
+          <tr><td>1.5</td><td>Use an Agile tool to manage the planning and implementation of all significant functionality</td><td><input type="checkbox" id="p4-lo1-5"></td></tr>
+          <tr><td>1.6</td><td>Document and implement all User Stories and map them to the project within an Agile tool</td><td><input type="checkbox" id="p4-lo1-6"></td></tr>
+          <tr><td>1.7</td><td>Write Python code that is consistent in style and conforms to the PEP8 style guide and validated HTML and CSS code.</td><td><input type="checkbox" id="p4-lo1-7"></td></tr>
+          <tr><td>1.8</td><td>Include sufficient custom Python logic to demonstrate your proficiency in the language</td><td><input type="checkbox" id="p4-lo1-8"></td></tr>
+          <tr><td>1.9</td><td>Include functions with compound statements such as if conditions and/or loops in your Python code</td><td><input type="checkbox" id="p4-lo1-9"></td></tr>
+          <tr><td>1.10</td><td>Write code that meets minimum standards for readability (comments, indentation, consistent and meaningful naming conventions).</td><td><input type="checkbox" id="p4-lo1-10"></td></tr>
+          <tr><td>1.11</td><td>Name files consistently and descriptively, without spaces or capitalisation to allow for cross-platform compatibility.</td><td><input type="checkbox" id="p4-lo1-11"></td></tr>
+          <tr><td>1.12</td><td>Document and implement all User Stories within the Agile tool and map them to the project goals</td><td><input type="checkbox" id="p4-lo1-12"></td></tr>
+          <tr><td>1.13</td><td>Document the UX design work undertaken for this project, including any wireframes, mockups, diagrams, etc., created as part of the design process and its reasoning. Include diagrams created as part of the design process and demonstrate that these have been followed through to implementation</td><td><input type="checkbox" id="p4-lo1-13"></td></tr>
+        </tbody>
+      </table>
+
+      <h3>LO2: Data model, features & business logic</h3>
+      <table class="criteria-table">
+        <thead><tr><th>Criterion</th><th>Description</th><th>Done</th></tr></thead>
+        <tbody>
+          <tr><td>2.1</td><td>Develop the model into a usable database where data is stored in a consistent and well-organised manner.</td><td><input type="checkbox" id="p4-lo2-1"></td></tr>
+          <tr><td>2.2</td><td>Create functionality for users to create, locate, display, edit and delete records</td><td><input type="checkbox" id="p4-lo2-2"></td></tr>
+          <tr><td>2.3</td><td>All changes to the data should be notified to relevant user</td><td><input type="checkbox" id="p4-lo2-3"></td></tr>
+          <tr><td>2.4</td><td>Implement at least one form, with validation, that allows users to create and edit models in the backend</td><td><input type="checkbox" id="p4-lo2-4"></td></tr>
+        </tbody>
+      </table>
+
+      <h3>LO3: Auth, authorisation & permissions</h3>
+      <table class="criteria-table">
+        <thead><tr><th>Criterion</th><th>Description</th><th>Done</th></tr></thead>
+        <tbody>
+          <tr><td>3.1</td><td>Apply role-based login and registration functionality</td><td><input type="checkbox" id="p4-lo3-1"></td></tr>
+          <tr><td>3.2</td><td>The current login state is reflected to the user</td><td><input type="checkbox" id="p4-lo3-2"></td></tr>
+          <tr><td>3.3</td><td>Users should not be permitted to access restricted content or functionality prior to role-based login.</td><td><input type="checkbox" id="p4-lo3-3"></td></tr>
+        </tbody>
+      </table>
+
+      <h3>LO4: Testing</h3>
+      <table class="criteria-table">
+        <thead><tr><th>Criterion</th><th>Description</th><th>Done</th></tr></thead>
+        <tbody>
+          <tr><td>4.1</td><td>Design and implement manual and/or automated Python test procedures to assess functionality, usability, responsiveness and data management within the entire web application</td><td><input type="checkbox" id="p4-lo4-1"></td></tr>
+          <tr><td>4.2</td><td>Design and implement manual and/or automated JavaScript test procedures to assess functionality, usability, responsiveness and data management within the entire web application</td><td><input type="checkbox" id="p4-lo4-2"></td></tr>
+          <tr><td>4.3</td><td>Document all implemented testing in the README.</td><td><input type="checkbox" id="p4-lo4-3"></td></tr>
+        </tbody>
+      </table>
+
+      <h3>LO5: Version control</h3>
+      <table class="criteria-table">
+        <thead><tr><th>Criterion</th><th>Description</th><th>Done</th></tr></thead>
+        <tbody>
+          <tr><td>5.1</td><td>Use Git & GitHub for version control of a Full-Stack web application up to deployment, using commit messages to document the development process.</td><td><input type="checkbox" id="p4-lo5-1"></td></tr>
+          <tr><td>5.2</td><td>Commit final code that is free of any passwords or security-sensitive information to the repository and the hosting platform</td><td><input type="checkbox" id="p4-lo5-2"></td></tr>
+        </tbody>
+      </table>
+
+      <h3>LO6: Deployment</h3>
+      <table class="criteria-table">
+        <thead><tr><th>Criterion</th><th>Description</th><th>Done</th></tr></thead>
+        <tbody>
+          <tr><td>6.1</td><td>Deploy a final version of the Full-Stack application code to a cloud-based hosting platform and test to ensure it matches the development version</td><td><input type="checkbox" id="p4-lo6-1"></td></tr>
+          <tr><td>6.2</td><td>Ensure that the final deployed code is free of commented out code and has no broken internal links</td><td><input type="checkbox" id="p4-lo6-2"></td></tr>
+          <tr><td>6.3</td><td>Document the deployment process in a README file in English</td><td><input type="checkbox" id="p4-lo6-3"></td></tr>
+          <tr><td>6.4</td><td>Ensure the security of the deployed version (no secrets in git, secrets in env/.gitignore, DEBUG off)</td><td><input type="checkbox" id="p4-lo6-4"></td></tr>
+        </tbody>
+      </table>
+
+      <h3>LO7: Object-based software concepts</h3>
+      <table class="criteria-table">
+        <thead><tr><th>Criterion</th><th>Description</th><th>Done</th></tr></thead>
+        <tbody>
+          <tr><td>7.1</td><td>Design a custom data model that fits the purpose of the project</td><td><input type="checkbox" id="p4-lo7-1"></td></tr>
+        </tbody>
+      </table>
+    </details>
+
+    <!-- Merit Criteria -->
+    <details>
+      <summary>Assessment Criteria — Merit</summary>
+
+      <p>To evidence performance at the MERIT level, a learner will, in general, demonstrate characteristics of performance at the MERIT level, as suggested below. However, the learner must achieve ALL listed merit criteria.</p>
+
+      <p>The learner has a clear rationale for the development of this project and has produced a fully functioning, well-documented, relational database-backed, Full-Stack application for a real-life audience, with a complete set of CRUD features. Data validation, API handling and user feedback are evident. Templates are used correctly. There are no logic errors and the application functions as expected.</p>
+
+      <p>The finished project has a clear, well-defined purpose for a specific audience and data domain. Purpose is evident to a new user without documentation. Users see feedback/progress indicators where relevant. The design follows UX/accessibility and is fully responsive.</p>
+
+      <p>Data is fully modelled and matches the schema (documented in the README). Datastore configuration is in a single location and easily changed. Config/settings files are well-organised, with different versions for branches.</p>
+
+      <table class="criteria-table">
+        <thead><tr><th>Criterion</th><th>Description</th><th>Done</th></tr></thead>
+        <tbody>
+          <tr><td>M1.1</td><td>Design a Front-End for a Full-Stack application following UX design principles, meets accessibility, is easy to navigate and intuitive</td><td><input type="checkbox" id="p4-m-1"></td></tr>
+          <tr><td>M1.2</td><td>Create templates with solid understanding of template syntax, logic and usage</td><td><input type="checkbox" id="p4-m-2"></td></tr>
+          <tr><td>M1.3</td><td>Provide evidence of refining Epics → User Stories → Tasks</td><td><input type="checkbox" id="p4-m-3"></td></tr>
+          <tr><td>M1.4</td><td>Define clear user acceptance criteria</td><td><input type="checkbox" id="p4-m-4"></td></tr>
+          <tr><td>M1.5</td><td>Should-have user stories ≤ 60% of timebox story points</td><td><input type="checkbox" id="p4-m-5"></td></tr>
+
+          <tr><td>M2.1</td><td>Design the app so users initiate/control actions with immediate, complete feedback on data processes</td><td><input type="checkbox" id="p4-m-6"></td></tr>
+          <tr><td>M2.2</td><td>Write robust, error-free code across the app</td><td><input type="checkbox" id="p4-m-7"></td></tr>
+          <tr><td>M2.3</td><td>Purpose quickly evident to a new user</td><td><input type="checkbox" id="p4-m-8"></td></tr>
+          <tr><td>M2.4</td><td>Maintain database configuration in a single, easily changed location</td><td><input type="checkbox" id="p4-m-9"></td></tr>
+          <tr><td>M2.5</td><td>Maintain Procfile, requirements.txt, etc.</td><td><input type="checkbox" id="p4-m-10"></td></tr>
+          <tr><td>M2.6</td><td>All CRUD functionality present and working</td><td><input type="checkbox" id="p4-m-11"></td></tr>
+          <tr><td>M2.7</td><td>CRUD actions immediately reflected in the UI</td><td><input type="checkbox" id="p4-m-12"></td></tr>
+
+          <tr><td>M3.1</td><td>README presents clear rationale, target audience, data and security features considered</td><td><input type="checkbox" id="p4-m-13"></td></tr>
+
+          <tr><td>M4.1</td><td>Fully document automated testing results; include bug evaluations, fixes and any unfixed bugs</td><td><input type="checkbox" id="p4-m-14"></td></tr>
+
+          <tr><td>M5.1</td><td>Describe the data schema fully in the README</td><td><input type="checkbox" id="p4-m-15"></td></tr>
+          <tr><td>M5.2</td><td>Commit often with small, well-defined, descriptive messages</td><td><input type="checkbox" id="p4-m-16"></td></tr>
+
+          <tr><td>M6.1</td><td>Fully document the deployment procedure in the README with clear, consistent markdown</td><td><input type="checkbox" id="p4-m-17"></td></tr>
+
+          <tr><td>M7.1</td><td>Implement efficient model code</td><td><input type="checkbox" id="p4-m-18"></td></tr>
+        </tbody>
+      </table>
+
+      <p><strong>Important:</strong> All Merit criteria must be achieved for merit to be awarded.</p>
+    </details>
+
+    <!-- Distinction Criteria -->
+    <details>
+      <summary>Assessment Criteria — Distinction</summary>
+
+      <p>The learner has achieved all pass and merit criteria and demonstrates high-level performance. The application is fully functioning, interactive, publishable, and follows professional-grade UI/interaction practices. No logic errors. Any deviations from best practice are justified. The result is original and not a copy of walkthroughs.</p>
+
+      <h3>Amplification (craftsmanship)</h3>
+
+      <h4>Front-End Design</h4>
+
+      <details>
+        <summary><strong>Information Hierarchy</strong></summary>
+        <ul>
+          <li>Semantic markup conveys structure; information is organised and easy to find <input type="checkbox" id="p4-d-ih-1"></li>
+          <li>All resources are easy to find; navigation is intuitive <input type="checkbox" id="p4-d-ih-2"></li>
+          <li>Information is prioritised appropriately <input type="checkbox" id="p4-d-ih-3"></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><strong>User Control</strong></summary>
+        <ul>
+          <li>Interactions produce a positive response via layout, colour, clear navigation and feedback <input type="checkbox" id="p4-d-uc-1"></li>
+          <li>No aggressive pop-ups/autoplay; user initiates media <input type="checkbox" id="p4-d-uc-2"></li>
+          <li>Non-existent routes redirect back to the main page <input type="checkbox" id="p4-d-uc-3"></li>
+          <li>Don’t ask for info you already have (e.g., logged-in email) <input type="checkbox" id="p4-d-uc-4"></li>
+          <li>Progress indicators and transaction feedback shown <input type="checkbox" id="p4-d-uc-5"></li>
+          <li>User/data errors are reported clearly <input type="checkbox" id="p4-d-uc-6"></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><strong>Consistency & Confirmation</strong></summary>
+        <ul>
+          <li>Design and interactivity are consistent across sections and data operations/reports <input type="checkbox" id="p4-d-cons-1"></li>
+          <li>Actions are confirmed; feedback is given at all times <input type="checkbox" id="p4-d-conf-1"></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><strong>Accessibility</strong></summary>
+        <ul>
+          <li>Clear conformity to accessibility guidelines across pages/interactivity <input type="checkbox" id="p4-d-acc-1"></li>
+          <li>Any deviations are identified and explained (comments/README) <input type="checkbox" id="p4-d-acc-2"></li>
+        </ul>
+      </details>
+
+      <h4>Development & Implementation</h4>
+
+      <details>
+        <summary><strong>Clean Code & Naming</strong></summary>
+        <ul>
+          <li>Files/classes/functions/variables are descriptive and consistent <input type="checkbox" id="p4-d-name-1"></li>
+          <li>No spaces; lower-case file/dir names for cross-platform compatibility <input type="checkbox" id="p4-d-name-2"></li>
+          <li>Attributes/CSS rules/variables/function names follow standards and are meaningful; app URLs are consistent <input type="checkbox" id="p4-d-name-3"></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><strong>File Structure</strong></summary>
+        <ul>
+          <li>Files grouped by type (assets, css, js, apps, etc.) <input type="checkbox" id="p4-d-files-1"></li>
+          <li>Clear separation between custom and external code (e.g., libraries folder) <input type="checkbox" id="p4-d-files-2"></li>
+          <li>Consistent, descriptive naming without spaces/capitals <input type="checkbox" id="p4-d-files-3"></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><strong>Readability</strong></summary>
+        <ul>
+          <li>Consistent indentation; no repeated blank lines >2 <input type="checkbox" id="p4-d-read-1"></li>
+          <li>IDs/classes/functions/variables indicate purpose <input type="checkbox" id="p4-d-read-2"></li>
+          <li>Code split into well-defined, commented sections <input type="checkbox" id="p4-d-read-3"></li>
+          <li>Semantic HTML; HTML/CSS/JS/Python separated and linked appropriately <input type="checkbox" id="p4-d-read-4"></li>
+          <li>CSS linked in head; non-trivial JS at end of body (or head if needed) <input type="checkbox" id="p4-d-read-5"></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><strong>Defensive Design & Comments</strong></summary>
+        <ul>
+          <li>Validate inputs (presence/format/range) <input type="checkbox" id="p4-d-def-1"></li>
+          <li>Handle internal errors gracefully; notify users <input type="checkbox" id="p4-d-def-2"></li>
+          <li>Custom code files include clear, relevant comments <input type="checkbox" id="p4-d-comm-1"></li>
+        </ul>
+      </details>
+
+      <details>
+        <summary><strong>Compliance & Robustness</strong></summary>
+        <ul>
+          <li>HTML passes W3C; CSS passes Jigsaw; JS passes linter; Python conforms to PEP8 (or stated style) <input type="checkbox" id="p4-d-comp-1"></li>
+          <li>No logic errors; user errors handled; failed API calls handled gracefully; inputs validated <input type="checkbox" id="p4-d-rob-1"></li>
+          <li>Navigation never breaks site; no broken links; no console errors <input type="checkbox" id="p4-d-rob-2"></li>
+        </ul>
+      </details>
+
+      <p>The entire design is implemented, providing an excellent solution and addressing security considerations. <input type="checkbox" id="p4-d-overall-1"></p>
+
+      <h4>Real-world Application</h4>
+      <ul>
+        <li>Use understandable, site-specific content (no Lorem Ipsum) <input type="checkbox" id="p4-d-real-1"></li>
+        <li>External links open in new tabs <input type="checkbox" id="p4-d-real-2"></li>
+        <li>Final application aligns with initial user stories <input type="checkbox" id="p4-d-real-3"></li>
+        <li>Testing procedures comprehensive with good coverage; followed; errors corrected or documented <input type="checkbox" id="p4-d-real-4"></li>
+      </ul>
+
+      <h4>Security & Framework Conventions</h4>
+      <ul>
+        <li>Secrets in env/.gitignore; never committed <input type="checkbox" id="p4-d-sec-1"></li>
+        <li>Login-required functionality restricted to logged-in users <input type="checkbox" id="p4-d-sec-2"></li>
+        <li>Appropriate user permissions and access levels <input type="checkbox" id="p4-d-sec-3"></li>
+        <li>Django conventions followed (Templates, Apps, Models, Views; logic placed per MVC(T) best practice) <input type="checkbox" id="p4-d-dj-1"></li>
+        <li>Configuration/settings well-organised <input type="checkbox" id="p4-d-dj-2"></li>
+      </ul>
+
+      <h4>Data & Configuration</h4>
+      <ul>
+        <li>Data fully modelled; matches schema (schema documented) <input type="checkbox" id="p4-d-data-1"></li>
+        <li>Datastore config in a single, easily changed location <input type="checkbox" id="p4-d-data-2"></li>
+        <li>Data well-structured with clear relationships; shared across apps (no duplication) <input type="checkbox" id="p4-d-data-3"></li>
+        <li>All CRUD present, working, and reflected immediately in the Front-End <input type="checkbox" id="p4-d-data-4"></li>
+        <li>Dependencies/config kept up to date; separate versions/branches where relevant; datastore not directly accessible without code <input type="checkbox" id="p4-d-data-5"></li>
+      </ul>
+
+      <h4>Testing Evidence</h4>
+      <ul>
+        <li>Comprehensive tests with clear evidence in commits; errors corrected or documented <input type="checkbox" id="p4-d-test-1"></li>
+        <li>Navigation/back-forward never breaks site; no broken links; no console errors <input type="checkbox" id="p4-d-test-2"></li>
+      </ul>
+    </details>
+
+  </main>
+
+  <footer>© Code Institute Assessment Criteria Checklist</footer>
+  <script src="scripts/checklist.js"></script>
+</body>
+</html>
